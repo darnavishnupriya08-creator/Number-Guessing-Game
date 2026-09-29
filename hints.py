@@ -30,3 +30,4 @@ def show_hint(guess, number):
 
     if guess != number:
         print("Hint:", give_hint(guess, number))
+
