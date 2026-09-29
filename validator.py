@@ -18,3 +18,4 @@ def validate_number_input(value):
         return True
     except ValueError:
         return False  
+
