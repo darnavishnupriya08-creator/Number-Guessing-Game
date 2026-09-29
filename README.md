@@ -1,30 +1,60 @@
-
 # Number Guessing Game
 
 ## Description
-The Number Guessing Game is a Python-based game in which the computer generates a random number between 1 and 100. The user tries to guess the number and receives hints such as "Too high" or "Too low" until the correct number is guessed.
+
+The Number Guessing Game is a Python-based interactive game in which the computer generates a random number and the player tries to guess it.
+
+The game provides different difficulty levels, hints, limited attempts, and a scoring system. The project is divided into multiple Python modules to make the program organized and easy to understand.
 
 ## Features
-- Generate a random number between 1 and 100
-- Allow the user to enter guesses
-- Provide "Too high" and "Too low" hints
-- Continue until the correct number is guessed
-- Display a congratulatory message
+
+- Generate a random number
+- Three difficulty levels: Easy, Medium, and Hard
+- Different number ranges for each difficulty
+- Limited attempts
+- "Too high" and "Too low" hints
+- Additional hints based on the distance from the correct number
+- Input validation
+- Score calculation
+- Difficulty-based bonus score
+- Play again option
+- Total score tracking
+- Game over message
+- Separate testing module
+
+## Difficulty Levels
+
+### Easy
+- Number range: 1 to 50
+- Attempts: 10
+
+### Medium
+- Number range: 1 to 100
+- Attempts: 7
+
+### Hard
+- Number range: 1 to 200
+- Attempts: 5
 
 ## Technologies Used
+
 - Python 3
 - Random module
+- Unittest module
+- Python standard library
 
-## How to Run
-1. Open `main.py` in Python.
-2. Run the program.
-3. Enter a number between 1 and 100.
-4. Follow the hints and continue guessing.
-5. The game ends when the correct number is guessed.
+## Project Structure
 
-## Project Output
-The program successfully allows the user to guess the randomly generated number and provides appropriate hints.
-
-## Project Output
-![Number Guessing Game Output](Image 2026-09-29 at 4.37.30 PM)
+```text
+number-guessing-game/
+├── main.py
+├── game.py
+├── validator.py
+├── hints.py
+├── user_input.py
+├── score.py
+├── utils.py
+├── test_game.py
+├── requirements.txt
+└── README.md
 
