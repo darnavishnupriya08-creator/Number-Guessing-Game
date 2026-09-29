@@ -25,3 +25,4 @@ def calculate_final_score(attempts_left, max_attempts, difficulty):
     bonus = calculate_bonus(difficulty)
 
     return score + bonus
+    
