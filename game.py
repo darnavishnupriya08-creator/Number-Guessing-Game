@@ -86,6 +86,7 @@ def play_game(difficulty):
         attempts_left -= 1
         print("Attempts remaining:", attempts_left)
         print()
+        
 
     print("Game Over!")
     print("The correct number was:", number)
