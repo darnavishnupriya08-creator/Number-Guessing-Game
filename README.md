@@ -25,3 +25,6 @@ The Number Guessing Game is a Python-based game in which the computer generates 
 ## Project Output
 The program successfully allows the user to guess the randomly generated number and provides appropriate hints.
 
+## Project Output
+![Number Guessing Game Output](Image 2026-09-29 at 4.37.30 PM)
+
