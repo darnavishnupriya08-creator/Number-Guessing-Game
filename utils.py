@@ -25,6 +25,7 @@ def display_result(score):
     print("======================================")
 
 
+
 def display_goodbye():
     print()
     print("Thank you for playing!")
